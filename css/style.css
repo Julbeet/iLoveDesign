@@ -1,0 +1,124 @@
+html, body{
+	height: 100%;
+}
+	body{
+	font: 18px/1.5 'Open Sans', sans-serif;
+	color: #464b4f;
+	 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+	width: 960px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-header{
+	background-color: #23232e;
+	color: #fff;
+	height: 100vh;
+	padding: 10vh 0;
+}
+.ba-header__logo img{
+	width: 130px;
+}
+.ba-header__title{
+	text-transform: uppercase;
+	font-size: 80px;
+	line-height: 1;
+	margin-top: 15vh;
+	max-height: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ba-header__text{
+	padding: 0 30%;
+	max-height: 90px;
+	overflow: hidden;
+}
+.ba-header__link{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #fff;
+	background: url(../img/arrow.png) no-repeat center;
+	top: auto;
+	bottom: 50px;
+	transition: all 0.25s;
+}
+.ba-header__link:hover,
+.ba-header__link:focus{
+	transform: scale(1.2);
+}
+
+
+.ba-main{
+	padding: 120px 0;
+	background: url(../img/bg.png) ;
+}
+.ba-main__text{
+	font-size: 30px;
+	color: #464b4f;
+}
+.ba-columns__title{
+	font-size: 80px;
+	color: #464b4f;
+	text-transform: uppercase;
+	margin: 120px 0 90px;
+}
+.ba-grid{
+
+}
+.ba-columns h3{
+
+	text-transform: uppercase;
+	color: #464b4f;
+}
+
+
